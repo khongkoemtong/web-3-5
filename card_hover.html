@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .container>.card{
+            background-color: red;
+            width: 350px;
+            height: 500px;
+            border-radius: 30px;
+            padding: 30px;
+
+        }
+        .container>.card>.image{
+            height: 50%;
+            width: 100%;
+            background-image: url('https://i.pinimg.com/736x/6d/c4/d6/6dc4d6d8b8b11839de2b5e2c243b8f30.jpg');
+            border-radius: 30px;
+            background-position: top;
+            background-size: cover;
+        }
+         .container>.card>.image:hover{
+            height: 50%;
+            width: 100%;
+            border-radius: 30px;
+            transform: scaleX(-1);
+            background-position: top;
+            background-size: cover;
+         }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="image">
+
+            </div>
+            <div class="text">
+                <h1>Headline</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quia?</p>
+            </div>
+            <div class="btn">
+                <button>secondary</button>
+                <button>Primary</button>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
